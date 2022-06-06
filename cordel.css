@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+header > h1 {
+    padding: 20px;
+    font-size: 7vw;
+    font-variant: small-caps;
+    font-family: 'Alfa Slab One';
+    font-weight: normal;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+article {
+    background-color: white;
+    width: 100%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 0px;
+}
+
+div.q1 {
+    background-color: black;
+    background-image: url('imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 150px;
+    padding-left: 0px;
+}
+
+div.q2 {
+    background-color: black;
+    background-image: url('imagens/background002.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 150px;
+    padding-left: 0px;
+}
+
+main p {
+    font-family: cursive;
+    font-size: 3vw;
+    line-height: 2em;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 40px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+p.transparente {
+    background-color: rgba(0, 0, 0, 0.445);
+    font-weight: 2em;
+    color: white;
+    display: inline-block;
+    height: 40vw;
+    padding-top: 0px;
+    padding-bottom: 70px;
+    padding-right: 10px;
+    text-shadow: 3px 3px black;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
